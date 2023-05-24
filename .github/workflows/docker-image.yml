@@ -26,3 +26,6 @@ jobs:
 
       - name: Start Docker Compose services
         run: docker-compose up -d
+        
+      - name: check docker version
+        run: docker --version
